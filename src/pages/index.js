@@ -1,3 +1,4 @@
+import About from "@/components/about/About";
 import Header from "@/components/header/Header";
 import Hero from "@/components/Hero/Hero";
 import Head from "next/head";
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
+        <About />
       </main>
     </>
   );

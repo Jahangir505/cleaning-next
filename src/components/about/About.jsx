@@ -13,7 +13,7 @@ import {
 const About = () => {
   const classes = useAboutStyle();
   return (
-    <Box className={classes.root}>
+    <Box className={classes.root} id="about-us">
       <Container>
         <Grid container spacing={3} alignItems={"center"}>
           <Grid item md={6}>

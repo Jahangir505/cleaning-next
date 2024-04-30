@@ -14,11 +14,11 @@ import React from "react";
 // const pages = ['Home', 'About Us', 'Service', 'Portfolio', 'Blog'];
 const pages = [
   { title: "Home", class: "active", link: "/" },
-  { title: "About Us", class: "", link: "/about-us" },
-  { title: "Service", class: "", link: "/service" },
-  { title: "Features", class: "", link: "/portfolio" },
-  { title: "FAQs", class: "", link: "/blog" },
-  { title: "Contact Us", class: "", link: "/blog" }
+  { title: "About Us", class: "", link: "#about-us" },
+  { title: "Service", class: "", link: "#service" },
+  { title: "Features", class: "", link: "#portfolio" },
+  { title: "Faq", class: "", link: "#faqs" },
+  { title: "Contact Us", class: "", link: "#contact-us" }
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 

@@ -106,7 +106,7 @@ const Header = () => {
             fontFamily: "monospace",
             fontWeight: 700,
             letterSpacing: ".3rem",
-            color: "#111111",
+            color: "#ffffff",
             textDecoration: "none",
             fontSize: 24
           }}
@@ -184,7 +184,7 @@ const Header = () => {
             fontFamily: "monospace",
             fontWeight: 700,
             letterSpacing: ".3rem",
-            color: "#111111",
+            color: "#ffffff",
             textDecoration: "none"
           }}
         >
@@ -206,7 +206,7 @@ const Header = () => {
           ))}
         </Box>
 
-        <Button className="contact-btn">
+        <Link href="tel:+012-345-677-890" className="contact-btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="19"
@@ -220,7 +220,7 @@ const Header = () => {
             />
           </svg>
           +012-345-677-890
-        </Button>
+        </Link>
       </Toolbar>
       {/* </Container> */}
     </AppBar>

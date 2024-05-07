@@ -4,6 +4,7 @@ import blog3 from "@/assets/images/blog/blog3.png";
 import { useBlogStyle } from "@/assets/stylesheet/blogStylesheet";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import BlogCard from "./BlogCard";
+import CallForQuote from "../call-for-quote/CallForQuote";
 
 const Blog = () => {
   const classes = useBlogStyle();
@@ -43,7 +44,9 @@ const Blog = () => {
             />
           </Grid>
         </Grid>
+        
       </Container>
+      <CallForQuote title="Call For A Free Quote" desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry." number="+012-345-677-890" />
     </Box>
   );
 };

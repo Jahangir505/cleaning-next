@@ -1,5 +1,6 @@
 import About from "@/components/about/About";
 import Blog from "@/components/blog/Blog";
+import CallForQuote from "@/components/call-for-quote/CallForQuote";
 import Header from "@/components/header/Header";
 import Hero from "@/components/Hero/Hero";
 import Service from "@/components/service/Service";
@@ -24,6 +25,7 @@ export default function Home() {
         <Work />
         <Statistics />
         <Blog />
+        
       </main>
     </>
   );

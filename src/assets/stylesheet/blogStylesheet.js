@@ -2,7 +2,7 @@ import { css } from "@emotion/css";
 
 export const useBlogStyle = () => ({
   root: css`
-    padding: 100px 0;
+    padding-top: 100px;
     background: #ffffff;
 
     .blog-top {

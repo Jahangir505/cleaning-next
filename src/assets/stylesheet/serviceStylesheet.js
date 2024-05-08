@@ -36,7 +36,7 @@ export const useServiceStyle = () => ({
     transition: 0.5s;
     img {
       width: 100%;
-      border-radius: 30px;
+      border-radius: 20px;
       cursor: pointer;
     }
 

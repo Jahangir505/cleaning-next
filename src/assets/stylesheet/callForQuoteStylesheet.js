@@ -1,3 +1,4 @@
+import bgClean from "@/assets/images/bg-clean.png";
 import bg from "@/assets/images/blog/bg.png";
 import { css } from "@emotion/css";
 
@@ -6,7 +7,9 @@ export const useCallForQuoteStyle = () => ({
     margin-top: -250px;
     padding: 73px 95px 50px 71px;
     border-radius: 40px;
-    background: linear-gradient(90deg, #e1efff 0%, rgba(255, 255, 255, 1) 100%);
+    background: url(${bgClean.src});
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .left-side {
       .title {
